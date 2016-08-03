@@ -1,0 +1,300 @@
+
+/* ===================================================== */
+@media screen and (min-width: 480px ) {
+
+    #logo {height:50px;max-width: none;}
+    .landing-slide-text {
+        padding: 20px 30px;
+        font-size: 14px;
+        height: 60px;
+    }
+    .slides-content_span{
+        font-size: 32px;
+    }
+}
+/* ===================================================== */
+
+
+
+/* ===================================================== */
+@media screen and (min-width: 680px) {
+    #logo {	float: left;}
+    .adress {padding-right: 50px;}
+    #mobile-menu {top: 55px;}
+}
+/* ===================================================== */
+
+
+/* ===================================================== */
+@media screen and (min-width: 768px ) {
+
+    .adress_phone:last-child {
+        margin-left: 45px;
+    }
+
+    .span {
+        font-size: 28px;
+    }
+
+
+    .no-slide-items {
+        top: 280px;
+    }
+
+    .slide-screen {
+        min-height: 700px;
+    }
+
+    .slides-content_span {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .shares {
+        margin-top: -40px;
+    }
+    .landing-slide-text {
+        padding: 20px 30px;
+        font-size: 16px;
+        line-height: 20px;
+        height: 80px;
+    }
+
+
+    .landing-screen {
+        padding-bottom: 70px;
+    }
+
+    .screen-title {
+        font: normal 46px/50px "PT Serif", sans-serif;
+    }
+    .advantages_item {
+        padding: 30px 0 30px 130px;
+        margin-bottom: 30px;
+        min-height: 110px;
+    }
+
+    .advantages_item:before {
+        width: 110px;
+        height: 110px;
+        margin: -55px 0 0 0;
+    }
+
+    .advantages_item:after {
+        left: 23px;
+    }
+
+    .adress {
+        padding-top: 0px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:1024px) {
+    .pricelist .grid .col3 {
+        width: 45%;
+        float: left;
+        margin: 0 10% 40px 0;
+    }
+    .pricelist .grid .col3:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+/* ===================================================== */
+
+
+
+/* ===================================================== */
+@media screen and (min-width:800px) {
+
+    .shares_list {
+        box-shadow: 1px -4px 19px 0 rgba(0, 0, 0, 0.23);
+    }
+    .shares_item {
+        max-width: none;
+        float: left;
+        width: 33%;
+        margin-bottom: 0;
+        box-shadow: 0 0 0 transparent;
+        border-left: 1px solid #c5c5c5;
+    }
+    .shares_item:first-child {
+        border-left: none;
+    }
+}
+/* ===================================================== */
+
+
+
+
+/* ===================================================== */
+@media screen and (min-width:1024px) {
+    .maxwidth {
+        width: auto;
+    }
+    #header {
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    }
+    .landing-screen {
+        padding-bottom: 100px;
+    }
+    .feedback.landing-screen {
+        padding-top: 70px;
+    }
+    .screen-title {
+        font: normal 60px/64px "PT Serif", sans-serif;
+    }
+    .header-row {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .on-desktop {display: block;}
+    .on-mobile {display: none;}
+    .sitetitle {
+        min-height: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /*.video-box {	padding: 0 50% 0 0; }*/
+    .video-item {
+        /*width: 50%;*/
+    }
+    .portfolio-video .bx-wrapper .bx-controls {
+        position: absolute;
+        width: 100%;
+        right: -100%;
+        top: 0;
+        bottom: auto;
+        z-index: 1000;
+    }
+    .portfolio-video .bx-wrapper .bx-pager {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        box-sizing: content-box;
+        padding: 0;
+        /*padding: 0 0 0 50%;*/
+        max-width: 590px;
+    }
+    .portfolio-video #bx-pager {
+        margin-top: 0px;
+    }
+    .portfolio-video #bx-pager a {
+        margin: 0 0 30px 20px;
+    }
+    .slides-content_form {
+        padding: 40px 30px 30px;
+        width: 320px;
+    }
+    input[type=text].slides-content_input,
+    input[type=tel].slides-content_input,
+    input[type=email].slides-content_input {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+    .slides-content_button {
+        padding: 40px 30px 30px 30px;
+        margin-left: -30px;
+        margin-bottom: -30px;
+        font-size: 22px;
+    }
+    .landing-screen {
+        padding: 100px 0;
+    }
+    .feedback .screen-title,  .advantages, .shares {
+        padding-top: 0;
+    }
+    .shares_info {
+        padding-bottom: 120px;
+    }
+
+    .advantages_item {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 30px 130px;
+    }
+    .pricelist .screen-title, .advantages_description {
+        margin-bottom: 50px;
+    }
+    .video-title {
+        font-size: 36px;
+        line-height: 38px;
+        padding-top: 120px;
+    }
+    .recommend .screen-title {
+        margin-bottom: 50px;
+        font-size: 48px;
+    }
+    .bottom-menu {
+        text-align: left;
+    }
+    .bottom-menu li { margin: 0 10px 10px 0; }
+    #copy { text-align: right; }
+    /*.feedback .screen-title {*/
+        /*padding-top: 70px;*/
+        /*}*/
+    }
+    /* ===================================================== */
+
+
+
+
+    /* ===================================================== */
+    @media screen and (min-width: 1280px ) {
+        body.page-template-landing-home #header {
+            box-sizing: content-box;
+        }
+        #header {
+            position: relative;
+            padding: 0 30px;
+        }
+        .header-row {
+            /*padding: 0 30px;*/
+            box-sizing: content-box;
+            position: relative;
+            left: -30px;
+        }
+
+
+    }
+    /* ===================================================== */
+
+
+
+
+    /* ===================================================== */
+    @media screen and (min-width: 1380px ) {
+        .maxwidth {
+            max-width: 1180px;
+        }
+        .recommend-item {
+            margin: 0 30px 30px 0;
+        }
+
+
+    }
+    /* ===================================================== */
+
+
+
+    @media screen and (min-height: 769px ) {
+
+        .landing-slide-item {
+            padding-top: 200px;
+        }
+        .no-slide-items {
+            top: 360px;
+        }
+        .landing-slide-item {
+            min-height: 700px;
+        }
+        .landing-slide-text {
+            font-size: 18px;
+            padding: 30px;
+            height: 100px;
+        }
+        .slides-content_span {
+            font-size: 48px;
+            line-height: 52px;
+            margin-bottom:20px;
+        }
+
+    }
